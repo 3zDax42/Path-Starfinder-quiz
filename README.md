@@ -7,12 +7,14 @@ using namespace std;
 //Variables to hold scores
 
 int main() {
+
+
+	string android[8] = {"artisan", "laborer", "polyglot", "warrior", "scion", "mod", "networked", "renewed"};
+
+
 	string ancesties[1];
 	string classes[1];
 	string background[1];
-
-
-
 
 
 
