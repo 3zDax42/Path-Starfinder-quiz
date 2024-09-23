@@ -6,8 +6,18 @@ using namespace std;
 
 //Variables to hold scores
 
+struct Base {
+	int points;
+	string placeholder;
+};
 int main() {
+	
+ 	Base Ancestries[1];
+	Ancestries[0].points = 0;
 
+	Base Class[1];
+
+	Base Background[1];
 
 	string android[8] = {"artisan", "laborer", "polyglot", "warrior", "scion", "mod", "networked", "renewed"};
 	string Barathu[4] = {"dreamer", "earlystage", "manufacturer", "merged"};
