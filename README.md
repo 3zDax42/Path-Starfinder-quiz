@@ -10,7 +10,15 @@ int main() {
 
 
 	string android[8] = {"artisan", "laborer", "polyglot", "warrior", "scion", "mod", "networked", "renewed"};
-
+	string Barathu[4] = {"dreamer", "earlystage", "manufacturer", "merged"};
+	string Human[6] = {"azlanti", "golarion", "scavenger", "skilled", "urbanite", "versatile"};
+	string Kasatha[5] = {"akitonian", "survivalist", "shipborn", "nomad", "tempreing"};
+	string Lashunta[3] = {"damaya", "korasha", "unbound"};
+	string Pahtra[6] = {"hunter", "krreyvash", "chosen", "pouncer", "sand", "rime"};
+	string Shirren[5] = {"courtier", "defiant", "infiltrator", "swarm", "winged"};
+	string Skittermander[4] = {"everwhelp", "gadraveech", "scrabbler", "skitter"};
+	string Vesk[5] = {"briskwander", "nightstalker", "plated", "venomthought", "warblood"};
+	string Ysoki[5] = {"akitonian", "deep", "longsnout", "shipborn", "tunnel"};
 
 	string ancesties[1];
 	string classes[1];
