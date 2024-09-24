@@ -5,8 +5,11 @@ using namespace std;
 //a quiz to that determines what 
 
 //Variables to hold scores
-
 struct Base {
+	vector<int>score;
+	vector<string>subclass;
+};
+struct base {
 	int points;
 	string placeholder;
 };
@@ -32,8 +35,35 @@ int main() {
 
 	string ancestries[1];
 	string classes[1];
-	string background[27] = {"cleaner", "athlete", "comedian", "brutaris player", "corporate agent", "city slicker", "cyberborn", "diplomat", "dream prophet", "disciple", "electrician", "doctor", "gene splicer",
-     "recluse", "grifter", "scientist", "hacker", "socialite", "icon", "smuggler", "outlaw", "spacefarer", "space pirate", "street rat", "tech support", "trooper", "vidgamer"};
+
+ 	base Background[27];
+	Background[0].name = "cleaner";
+	Background[1].name = "athlete";
+	Background[2].name = "comedian";
+	Background[3].name = "brutaris player";
+	Background[4].name = "corporate agent";
+	Background[5].name = "city slicker";
+	Background[6].name = "cyberborn";
+	Background[7].name = "diplomat";
+	Background[8].name = "dream prophet";
+	Background[9].name = "disciple";
+	Background[10].name = "electrician";
+	Background[11].name = "doctor";
+	Background[12].name = "gene splicer";
+	Background[13].name = "recluse";
+	Background[14].name = "grifter";
+	Background[15].name = "scientist";
+	Background[16].name = "hacker";
+	Background[17].name = "socialite";
+	Background[18].name = "icon";
+	Background[19].name = "smuggler";
+	Background[20].name = "outlaw";
+	Background[21].name = "spacefarer";
+	Background[22].name = "space pirate";
+	Background[23].name = "street rat";
+	Background[24].name = "tech support";
+	Background[25].name = "trooper";
+	Background[26].name = "vidgamer";
 
 
 
