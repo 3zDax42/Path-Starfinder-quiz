@@ -45,8 +45,8 @@ int main() {
         {"Solarian", {{"Solar Flare", 0}, {"Solar Nimbus", 0}, {"Solar Weopon", 0}, {"Balenced", 0}, {"Degradant", 0}, {"Radiant", 0}}},
         {"Witchwarper", {{"Analyst", 0}, {"Anomaly", 0}, {"Gap Influenced", 0}, {"Precog", 0}, {"Core Memories", 0}, {"Focal Point", 0}, {"Tangible Object", 0}}},
         {"Operative", {{"ghost",0}, {"infiltrator",0}, {"skirmisher",0}, {"sniper",0}, {"striker",0}}},
-	    {"Mystic", {{"akashic",0}, {"elemental",0}, {"healing",0}, {"rhythm",0}, {"shadow",0}}},
-	    {"Soldier", {{"action hero",0}, {"armor storm",0}, {"Bombard",0}, {"close quarters",0}, {"erudite warrior",0}}}
+	{"Mystic", {{"akashic",0}, {"elemental",0}, {"healing",0}, {"rhythm",0}, {"shadow",0}}},
+	{"Soldier", {{"action hero",0}, {"armor storm",0}, {"Bombard",0}, {"close quarters",0}, {"erudite warrior",0}}}
     };
         
     vector<SubBase> Backgrounds = {
