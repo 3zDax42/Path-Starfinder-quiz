@@ -40,7 +40,12 @@ int main() {
         {"Vesk", {{"briskwander",0}, {"nightstalker",0}, {"plated",0}, {"venomthought",0}, {"warblood",0}}},
         {"Ysoki", {{"akitonian",0}, {"deep",0}, {"longsnout",0}, {"shipborn",0}, {"tunnel",0}}}
     };
-
+    vector<Base> Classes = {
+        {"Envoy", {{"From the Front", 0}, {"From the Shadows", 0}, {"Gunsblazing", 0}, {"In the Spotlight", 0}, {"Hotshot", 0}, {"Infosphere Director", 0}, {"Through Desperate Times", 0}}},
+        {"Solarian", {{"Solar Flare", 0}, {"Solar Nimbus", 0}, {"Solar Weopon", 0}, {"Balenced", 0}, {"Degradant", 0}, {"Radiant", 0}}},
+        {"Witchwarper", {{"Analyst", 0}, {"Anomaly", 0}, {"Gap Influenced", 0}, {"Precog", 0}, {"Core Memories", 0}, {"Focal Point", 0}, {"Tangible Object", 0}}},
+    };
+        
     vector<SubBase> Backgrounds = {
         {"cleaner",0}, {"athlete",0}, {"comedian",0}, {"brutaris player",0}, {"corporate agent",0}, {"city slicker",0},
         {"cyberborn",0}, {"diplomat",0}, {"dream prophet",0}, {"disciple",0}, {"electrician",0}, {"doctor",0}, {"gene splicer",0},
